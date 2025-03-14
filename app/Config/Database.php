@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'news',
+        'hostname'     => 'shinkansen.proxy.rlwy.net',
+        'username'     => 'root',
+        'password'     => 'UmSyAwNLLdfldvzozaJAKTnmMUeeULsM',
+        'database'     => 'railway',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -41,7 +41,7 @@ class Database extends Config
         'compress'     => false,
         'strictOn'     => false,
         'failover'     => [],
-        'port'         => 3306,
+        'port'         => 38213,
         'numberNative' => false,
         'dateFormat'   => [
             'date'     => 'Y-m-d',
